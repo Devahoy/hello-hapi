@@ -36,7 +36,6 @@ server.route({
   method: 'POST',
   path: '/newuser',
   handler: function(request, reply) {
-    console.log('hello ' + request.payload.username);
     user = {
       id: request.payload.id,
       username: request.payload.username,
