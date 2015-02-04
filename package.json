@@ -1,0 +1,7 @@
+{
+  "name": "hello-hapi",
+  "version": "0.0.1",
+  "devDependencies": {
+    "hapi": "^8.1.0"
+  }
+}
